@@ -159,35 +159,33 @@ trocaPergunta = (resposta) => {
             document.getElementById("op4").innerHTML = "Legenda 9";      
         }
         else if (numPergunta === 10){
-          document.getElementById("perguntaExibida").innerHTML = "10) Pergunta";
-          document.getElementById("op1").innerHTML = "Legenda 10";
+            document.getElementById("perguntaExibida").innerHTML = "10) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 10";
             document.getElementById("op2").innerHTML = "Legenda 10";
             document.getElementById("op3").innerHTML = "Legenda 10";
             document.getElementById("op4").innerHTML = "Legenda 10";
         }
+
+        document.getElementById("perguntaExibida").animate([
+            // keyframes
+            { opacity: '0', transform: 'translateX(-15px)' },
+            { opacity: '1', transform: 'translateX(0)' }
+          ], {
+            // timing options
+            duration: 1000,
+            fill: "forwards"
+          });
+    
+        document.getElementById("perguntas").animate([
+            // keyframes
+            { opacity: '0' },
+            { opacity: '1' }
+          ], {
+            // timing options
+            duration: 1000,
+            fill: "forwards"
+          });
     }, 1000);
-
-    document.getElementById("perguntaExibida").animate([
-        // keyframes
-        { opacity: '0', transform: 'translateX(-15px)' },
-        { opacity: '1', transform: 'translateX(0)' }
-      ], {
-        // timing options
-        duration: 1000,
-        delay: 1000,
-        fill: "forwards"
-      });
-
-    document.getElementById("perguntas").animate([
-        // keyframes
-        { opacity: '0' },
-        { opacity: '1' }
-      ], {
-        // timing options
-        duration: 1000,
-        delay: 1000,
-        fill: "forwards"
-      });
 };
      
 prox = (resposta) => {
