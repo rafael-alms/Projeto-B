@@ -81,84 +81,10 @@ mudaCorVerde = (resposta) => {
 trocaPergunta = (resposta) => {
     mudaCorBranco(resposta);
 
-    if(numPergunta === 2) {
-        document.getElementById("perguntaExibida").innerHTML = "2) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 2";
-        document.getElementById("op2").innerHTML = "Legenda 2";
-        document.getElementById("op3").innerHTML = "Legenda 2";
-        document.getElementById("op4").innerHTML = "Legenda 2";
-    }
-    else if(numPergunta === 3) {
-        document.getElementById("perguntaExibida").innerHTML = "3) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 3";
-        document.getElementById("op2").innerHTML = "Legenda 3";
-        document.getElementById("op3").innerHTML = "Legenda 3";
-        document.getElementById("op4").innerHTML = "Legenda 3";
-    }
-    else if(numPergunta === 4) {
-        document.getElementById("perguntaExibida").innerHTML = "4) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 4";
-        document.getElementById("op2").innerHTML = "Legenda 4";
-        document.getElementById("op3").innerHTML = "Legenda 4";
-        document.getElementById("op4").innerHTML = "Legenda 4";
-    }
-    else if(numPergunta === 5) {
-        document.getElementById("perguntaExibida").innerHTML = "5) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 5";
-        document.getElementById("op2").innerHTML = "Legenda 5";
-        document.getElementById("op3").innerHTML = "Legenda 5";
-        document.getElementById("op4").innerHTML = "Legenda 5";
-    }
-    else if(numPergunta === 6) {
-        document.getElementById("perguntaExibida").innerHTML = "6) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 6";
-        document.getElementById("op2").innerHTML = "Legenda 6";
-        document.getElementById("op3").innerHTML = "Legenda 6";
-        document.getElementById("op4").innerHTML = "Legenda 6";
-    }
-    else if(numPergunta === 7) {
-        document.getElementById("perguntaExibida").innerHTML = "7) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 7";
-        document.getElementById("op2").innerHTML = "Legenda 7";
-        document.getElementById("op3").innerHTML = "Legenda 7";
-        document.getElementById("op4").innerHTML = "Legenda 7";
-    }
-    else if(numPergunta === 8) {
-        document.getElementById("perguntaExibida").innerHTML = "8) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 8";
-        document.getElementById("op2").innerHTML = "Legenda 8";
-        document.getElementById("op3").innerHTML = "Legenda 8";
-        document.getElementById("op4").innerHTML = "Legenda 8";
-    }
-    else if(numPergunta === 9) {
-        document.getElementById("perguntaExibida").innerHTML = "9) Pergunta";
-        document.getElementById("op1").innerHTML = "Legenda 9";
-        document.getElementById("op2").innerHTML = "Legenda 9";
-        document.getElementById("op3").innerHTML = "Legenda 9";
-        document.getElementById("op4").innerHTML = "Legenda 9";      
-    }
-    else if (numPergunta === 10){
-      document.getElementById("perguntaExibida").innerHTML = "10) Pergunta";
-      document.getElementById("op1").innerHTML = "Legenda 10";
-        document.getElementById("op2").innerHTML = "Legenda 10";
-        document.getElementById("op3").innerHTML = "Legenda 10";
-        document.getElementById("op4").innerHTML = "Legenda 10";
-    }
-
     document.getElementById("perguntaExibida").animate([
         // keyframes
         { opacity: '1', transform: 'translateX(0)' },
         { opacity: '0', transform: 'translateX(15px)' }
-      ], {
-        // timing options
-        duration: 1000,
-        fill: "forwards"
-      });
-
-    document.getElementById("perguntaExibida").animate([
-        // keyframes
-        { opacity: '0', transform: 'translateX(-15px)' },
-        { opacity: '1', transform: 'translateX(0)' }
       ], {
         // timing options
         duration: 1000,
@@ -175,6 +101,83 @@ trocaPergunta = (resposta) => {
         fill: "forwards"
       });
 
+    setTimeout(function(){ 
+        if(numPergunta === 2) {
+            document.getElementById("perguntaExibida").innerHTML = "2) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 2";
+            document.getElementById("op2").innerHTML = "Legenda 2";
+            document.getElementById("op3").innerHTML = "Legenda 2";
+            document.getElementById("op4").innerHTML = "Legenda 2";
+        }
+        else if(numPergunta === 3) {
+            document.getElementById("perguntaExibida").innerHTML = "3) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 3";
+            document.getElementById("op2").innerHTML = "Legenda 3";
+            document.getElementById("op3").innerHTML = "Legenda 3";
+            document.getElementById("op4").innerHTML = "Legenda 3";
+        }
+        else if(numPergunta === 4) {
+            document.getElementById("perguntaExibida").innerHTML = "4) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 4";
+            document.getElementById("op2").innerHTML = "Legenda 4";
+            document.getElementById("op3").innerHTML = "Legenda 4";
+            document.getElementById("op4").innerHTML = "Legenda 4";
+        }
+        else if(numPergunta === 5) {
+            document.getElementById("perguntaExibida").innerHTML = "5) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 5";
+            document.getElementById("op2").innerHTML = "Legenda 5";
+            document.getElementById("op3").innerHTML = "Legenda 5";
+            document.getElementById("op4").innerHTML = "Legenda 5";
+        }
+        else if(numPergunta === 6) {
+            document.getElementById("perguntaExibida").innerHTML = "6) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 6";
+            document.getElementById("op2").innerHTML = "Legenda 6";
+            document.getElementById("op3").innerHTML = "Legenda 6";
+            document.getElementById("op4").innerHTML = "Legenda 6";
+        }
+        else if(numPergunta === 7) {
+            document.getElementById("perguntaExibida").innerHTML = "7) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 7";
+            document.getElementById("op2").innerHTML = "Legenda 7";
+            document.getElementById("op3").innerHTML = "Legenda 7";
+            document.getElementById("op4").innerHTML = "Legenda 7";
+        }
+        else if(numPergunta === 8) {
+            document.getElementById("perguntaExibida").innerHTML = "8) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 8";
+            document.getElementById("op2").innerHTML = "Legenda 8";
+            document.getElementById("op3").innerHTML = "Legenda 8";
+            document.getElementById("op4").innerHTML = "Legenda 8";
+        }
+        else if(numPergunta === 9) {
+            document.getElementById("perguntaExibida").innerHTML = "9) Pergunta";
+            document.getElementById("op1").innerHTML = "Legenda 9";
+            document.getElementById("op2").innerHTML = "Legenda 9";
+            document.getElementById("op3").innerHTML = "Legenda 9";
+            document.getElementById("op4").innerHTML = "Legenda 9";      
+        }
+        else if (numPergunta === 10){
+          document.getElementById("perguntaExibida").innerHTML = "10) Pergunta";
+          document.getElementById("op1").innerHTML = "Legenda 10";
+            document.getElementById("op2").innerHTML = "Legenda 10";
+            document.getElementById("op3").innerHTML = "Legenda 10";
+            document.getElementById("op4").innerHTML = "Legenda 10";
+        }
+    }, 1000);
+
+    document.getElementById("perguntaExibida").animate([
+        // keyframes
+        { opacity: '0', transform: 'translateX(-15px)' },
+        { opacity: '1', transform: 'translateX(0)' }
+      ], {
+        // timing options
+        duration: 1000,
+        delay: 1000,
+        fill: "forwards"
+      });
+
     document.getElementById("perguntas").animate([
         // keyframes
         { opacity: '0' },
@@ -182,6 +185,7 @@ trocaPergunta = (resposta) => {
       ], {
         // timing options
         duration: 1000,
+        delay: 1000,
         fill: "forwards"
       });
 };
