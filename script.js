@@ -79,8 +79,6 @@ mudaCorVerde = (resposta) => {
 };
 
 trocaPergunta = (resposta) => {
-    mudaCorBranco(resposta);
-
     document.getElementById("perguntaExibida").animate([
         // keyframes
         { opacity: '1', transform: 'translateX(0)' },
@@ -165,6 +163,8 @@ trocaPergunta = (resposta) => {
             document.getElementById("op3").innerHTML = "Legenda 10";
             document.getElementById("op4").innerHTML = "Legenda 10";
         }
+
+        mudaCorBranco(resposta);
 
         document.getElementById("perguntaExibida").animate([
             // keyframes
