@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto B</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div id="componente1" class="component">
+            <img src="images/warning.gif" alt="warning">
+            <div class="container">
+                <div class="progress-bar"></div>
+            </div>
+            <p>CARREGANDO...</p>
+        </div>
+
+        <div id="componente2" class="component" hidden>
+            <div class="typewriter">
+                <div id="typedtext"></div>
+            </div>
+            <button onclick="escondeComp2()">Iniciar</button>
+        </div>
+
+        <div id="componente3" class="component" hidden>
+            <h2>Responda todas as 10 perguntas e acerte no mínimo 6.</h2>
+    
+            <p id="perguntaExibida" class="pgtExibida">1) Qual o super herói favorito de Rafael de Almeida?</p>
+
+            <div id="perguntas" class="alternativas">
+                <div class="option">
+                    <button class="button" id="btn1" onclick="prox('btn1')">
+                        a
+                    </button>
+                    <p id="op1">Legenda</p>
+                </div>
+                <div class="option">
+                    <button class="button" id="btn2" onclick="prox('btn2')">
+                        b
+                    </button>
+                    <p id="op2">Legenda</p>
+                </div>
+                <div class="option">
+                    <button class="button" id="btn3" onclick="prox('btn3')">
+                        c
+                    </button>
+                    <p id="op3">Legenda</p>
+                </div>
+                <div class="option">
+                    <button class="button" id="btn4" onclick="prox('btn4')">
+                        d
+                    </button>
+                    <p id="op4">Legenda</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="componente4" class="component" hidden>
+            <img class="confete" src="images/confete.gif" alt="Confete caindo">
+            <div class="parabens">
+                <h1>PARABÉNS!</h1>
+                <p>Você adquiriu a nota necessária para obter a recompensa.</p>
+                <p id="aprovado">Nota: </p>
+                <p>Sua recompensa: <a target="_blank" href="https://web.whatsapp.com/"> clique aqui.</a></p>
+            </div>
+        </div>
+
+        <div id="componente5" class="component" hidden>
+            <div class="parabens">
+                <h1>Tente novamente!</h1>
+                <p>Infelizmente você não adquiriu a nota necessária para obter a recompensa.</p>
+                <p id="falhou">Nota: </p>
+                <p>Recarregue a página e tente novamente.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
