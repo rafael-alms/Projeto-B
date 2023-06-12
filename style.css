@@ -14,6 +14,10 @@ body {
     font-family: 'Palanquin', sans-serif;
 }
 
+button {
+    font-family: 'Palanquin', sans-serif;
+}
+
 .page {
     margin: 0 auto;
     padding: 0 10%;
@@ -64,7 +68,7 @@ body {
     border-radius: 1.5rem;
     padding: 1.5rem 5rem;
     margin-top: 5rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     opacity: 0;
     cursor: pointer;
     animation: showButton 2s 3s forwards;
@@ -112,9 +116,10 @@ body {
 }
 
 .button {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-radius: 1.8rem;
     background-color: #F9F9F9;
     border: thin solid #C7C7C7;;
     color: #000;
@@ -156,6 +161,41 @@ body {
 
 .parabens a {
     color: #64a9e2;
+}
+
+.falha {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.falha h1 {
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+
+.falha p {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+
+#componente5 button {
+    background-color: #d78016;
+    color: #FFF;
+    border: 0;
+    border-radius: 1.5rem;
+    padding: 1.5rem 5rem;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#componente5 button:hover {
+    background-color: #c67005;
+}
+
+#componente5 button:active {
+    background-color: #b56004;
 }
 
 @keyframes progress-animation {

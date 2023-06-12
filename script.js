@@ -61,18 +61,21 @@ mudaCorBranco = (resposta) => {
     document.getElementById(resposta).style.backgroundColor = "#F9F9F9";
     document.getElementById(resposta).style.borderBottomColor = "#C7C7C7";
     document.getElementById(resposta).style.borderRightColor = "#C7C7C7";
+    document.getElementById(resposta).style.color = "#000";
 };
 
 mudaCorVermelho = (resposta) => {
     document.getElementById(resposta).style.backgroundColor = "#E71125";
     document.getElementById(resposta).style.borderBottomColor = "#9B111E";
     document.getElementById(resposta).style.borderRightColor = "#9B111E";
+    document.getElementById(resposta).style.color = "#FFF";
 };
 
 mudaCorVerde = (resposta) => {
     document.getElementById(resposta).style.backgroundColor = "#1f9238";
     document.getElementById(resposta).style.borderBottomColor = "#0d7016";
     document.getElementById(resposta).style.borderRightColor = "#0d7016";
+    document.getElementById(resposta).style.color = "#FFF";
 };
 
 trocaPergunta = (resposta) => {
@@ -149,7 +152,6 @@ trocaPergunta = (resposta) => {
       ], {
         // timing options
         duration: 1000,
-        delay: 1000,
         fill: "forwards"
       });
 
@@ -170,7 +172,6 @@ trocaPergunta = (resposta) => {
       ], {
         // timing options
         duration: 1000,
-        delay: 1000,
         fill: "forwards"
       });
 
