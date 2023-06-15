@@ -101,67 +101,67 @@ trocaPergunta = (resposta) => {
 
     setTimeout(function(){ 
         if(numPergunta === 2) {
-            document.getElementById("perguntaExibida").innerHTML = "2) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 2";
-            document.getElementById("op2").innerHTML = "Legenda 2";
-            document.getElementById("op3").innerHTML = "Legenda 2";
-            document.getElementById("op4").innerHTML = "Legenda 2";
+            document.getElementById("perguntaExibida").innerHTML = "2) Qual a carreira mais recente do seu amigo Rafael?";
+            document.getElementById("op1").innerHTML = "Tiktoker";
+            document.getElementById("op2").innerHTML = "Lutador de Sumô";
+            document.getElementById("op3").innerHTML = "Astronauta";
+            document.getElementById("op4").innerHTML = "Gamer Pro";
         }
         else if(numPergunta === 3) {
-            document.getElementById("perguntaExibida").innerHTML = "3) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 3";
-            document.getElementById("op2").innerHTML = "Legenda 3";
-            document.getElementById("op3").innerHTML = "Legenda 3";
-            document.getElementById("op4").innerHTML = "Legenda 3";
+            document.getElementById("perguntaExibida").innerHTML = "3) Qual o @ do Tik Tok do seu amigo Rafael?";
+            document.getElementById("op1").innerHTML = "rafaeldealmeida";
+            document.getElementById("op2").innerHTML = "mrbeast";
+            document.getElementById("op3").innerHTML = "rafael-alms";
+            document.getElementById("op4").innerHTML = "rafaalmeid";
         }
         else if(numPergunta === 4) {
-            document.getElementById("perguntaExibida").innerHTML = "4) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 4";
-            document.getElementById("op2").innerHTML = "Legenda 4";
-            document.getElementById("op3").innerHTML = "Legenda 4";
-            document.getElementById("op4").innerHTML = "Legenda 4";
+            document.getElementById("perguntaExibida").innerHTML = "4) Junho é o mês de qual festividade?";
+            document.getElementById("op1").innerHTML = "Carnaval";
+            document.getElementById("op2").innerHTML = "Setembro amarelo";
+            document.getElementById("op3").innerHTML = "Halloween";
+            document.getElementById("op4").innerHTML = "Festa junina";
         }
         else if(numPergunta === 5) {
-            document.getElementById("perguntaExibida").innerHTML = "5) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 5";
-            document.getElementById("op2").innerHTML = "Legenda 5";
-            document.getElementById("op3").innerHTML = "Legenda 5";
-            document.getElementById("op4").innerHTML = "Legenda 5";
+            document.getElementById("perguntaExibida").innerHTML = "5) O que mais comemoramos em junho?";
+            document.getElementById("op1").innerHTML = "Dia dos pais";
+            document.getElementById("op2").innerHTML = "Dia das crianças";
+            document.getElementById("op3").innerHTML = "Aniversário do Rômulo";
+            document.getElementById("op4").innerHTML = "Aniversário do Rafael";
         }
         else if(numPergunta === 6) {
-            document.getElementById("perguntaExibida").innerHTML = "6) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 6";
-            document.getElementById("op2").innerHTML = "Legenda 6";
-            document.getElementById("op3").innerHTML = "Legenda 6";
-            document.getElementById("op4").innerHTML = "Legenda 6";
+            document.getElementById("perguntaExibida").innerHTML = "6) Qual das seguintes características representa mais o seu amigo Rafael?";
+            document.getElementById("op1").innerHTML = "Falador";
+            document.getElementById("op2").innerHTML = "Indeciso";
+            document.getElementById("op3").innerHTML = "Cantor";
+            document.getElementById("op4").innerHTML = "Agressivo";
         }
         else if(numPergunta === 7) {
-            document.getElementById("perguntaExibida").innerHTML = "7) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 7";
-            document.getElementById("op2").innerHTML = "Legenda 7";
-            document.getElementById("op3").innerHTML = "Legenda 7";
-            document.getElementById("op4").innerHTML = "Legenda 7";
+            document.getElementById("perguntaExibida").innerHTML = "7) Qual das seguintes skins seu amigo Rafael nunca foi visto usando?";
+            document.getElementById("op1").innerHTML = "Taekwondista";
+            document.getElementById("op2").innerHTML = "Nadador";
+            document.getElementById("op3").innerHTML = "Fitness";
+            document.getElementById("op4").innerHTML = "Emo";
         }
         else if(numPergunta === 8) {
-            document.getElementById("perguntaExibida").innerHTML = "8) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 8";
-            document.getElementById("op2").innerHTML = "Legenda 8";
-            document.getElementById("op3").innerHTML = "Legenda 8";
-            document.getElementById("op4").innerHTML = "Legenda 8";
+            document.getElementById("perguntaExibida").innerHTML = "8) Qual o poder preferido do seu amigo Rafael?";
+            document.getElementById("op1").innerHTML = "Raio";
+            document.getElementById("op2").innerHTML = "Magnetismo";
+            document.getElementById("op3").innerHTML = "Vento";
+            document.getElementById("op4").innerHTML = "Força";
         }
         else if(numPergunta === 9) {
-            document.getElementById("perguntaExibida").innerHTML = "9) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 9";
-            document.getElementById("op2").innerHTML = "Legenda 9";
-            document.getElementById("op3").innerHTML = "Legenda 9";
-            document.getElementById("op4").innerHTML = "Legenda 9";      
+            document.getElementById("perguntaExibida").innerHTML = "9) Escolha a melhor definição para a palavra “amigo”.";
+            document.getElementById("op1").innerHTML = "Uma pessoa bonita.";
+            document.getElementById("op2").innerHTML = "Uma pessoa solidária.";
+            document.getElementById("op3").innerHTML = "Uma pessoa forte.";
+            document.getElementById("op4").innerHTML = "“kkkkkkk é foda.”";      
         }
         else if (numPergunta === 10){
-            document.getElementById("perguntaExibida").innerHTML = "10) Pergunta";
-            document.getElementById("op1").innerHTML = "Legenda 10";
-            document.getElementById("op2").innerHTML = "Legenda 10";
-            document.getElementById("op3").innerHTML = "Legenda 10";
-            document.getElementById("op4").innerHTML = "Legenda 10";
+            document.getElementById("perguntaExibida").innerHTML = "10) Sobre o que foi a primeira pergunta desse quiz?";
+            document.getElementById("op1").innerHTML = "Festividade de junho";
+            document.getElementById("op2").innerHTML = "Carreira";
+            document.getElementById("op3").innerHTML = "Melhor companhia";
+            document.getElementById("op4").innerHTML = "@ do Tik Tok";
         }
 
         mudaCorBranco(resposta);
@@ -191,7 +191,7 @@ trocaPergunta = (resposta) => {
 prox = (resposta) => {
     var idResposta = document.getElementById(resposta).id.toString();
     if (numPergunta === 1) {
-        if (idResposta == "btn1") {
+        if (idResposta == "btn2") {
             acertos++;
             mudaCorVerde(resposta);
         }
@@ -199,7 +199,7 @@ prox = (resposta) => {
             mudaCorVermelho(resposta);
     }
     else if (numPergunta === 2) {
-        if (idResposta == "btn2") {
+        if (idResposta == "btn1") {
             acertos++;
             mudaCorVerde(resposta);
         }
@@ -223,7 +223,7 @@ prox = (resposta) => {
             mudaCorVermelho(resposta);
     }
     else if (numPergunta === 5) {
-        if (idResposta == "btn1") {
+        if (idResposta == "btn4") {
             acertos++;
             mudaCorVerde(resposta);
         }
@@ -239,14 +239,6 @@ prox = (resposta) => {
             mudaCorVermelho(resposta);
     }
     else if (numPergunta === 7) {
-        if (idResposta == "btn3") {
-            acertos++;
-            mudaCorVerde(resposta);
-        }
-        else
-            mudaCorVermelho(resposta);
-    }
-    else if (numPergunta === 8) {
         if (idResposta == "btn4") {
             acertos++;
             mudaCorVerde(resposta);
@@ -254,8 +246,16 @@ prox = (resposta) => {
         else
             mudaCorVermelho(resposta);
     }
-    else if (numPergunta === 9) {
+    else if (numPergunta === 8) {
         if (idResposta == "btn1") {
+            acertos++;
+            mudaCorVerde(resposta);
+        }
+        else
+            mudaCorVermelho(resposta);
+    }
+    else if (numPergunta === 9) {
+        if (idResposta == "btn4") {
             acertos++;
             mudaCorVerde(resposta);
         }
@@ -263,7 +263,7 @@ prox = (resposta) => {
             mudaCorVermelho(resposta);     
     }
     else if (numPergunta === 10) {
-        if (idResposta == "btn2") {
+        if (idResposta == "btn3") {
             acertos++;
             mudaCorVerde(resposta);
         }
